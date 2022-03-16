@@ -3,6 +3,7 @@
 html {
       font-family:"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-size:106.25%;quotes:"“" "”"
     }
+}
   .container{
     width: 980px;
     margin:0 auto;
@@ -26,10 +27,12 @@ html {
   }
   .recommend  .right{
     margin-left:20px;
+    margin-right: 200px;
     float:right;
   }
   .recommend  .left{
     float: left;
+    margin-left: 200px;
   }
   .series{
     font-size: 21px;
