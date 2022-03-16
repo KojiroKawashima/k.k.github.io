@@ -1,26 +1,60 @@
 @charset 'utf8';
 
-<style>
+html {
+      font-family:"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-size:106.25%;quotes:"“" "”"
+    }
   .container{
     width: 980px;
     margin:0 auto;
   }
   .recommend{
     margin-bottom: 10px;
+    width:100%;
     display: block;
     height:315px;
-    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:110px
   }
   .recommend .label{
-    position: absolute;
-    top: 10%;
-    -webkit-transform : translateY(50%);
-    transform : translateY(50%);
-    content: 'Box';
-    width:40%;
+    width:50%;
+    font-weight: 600px;
   }
   .recommend iframe{
     width: 60%;
-    float: right;
   }
-</style>
+  .recommend  .right{
+    margin-left:20px;
+    float:right;
+  }
+  .recommend  .left{
+    float: left;
+  }
+  .series{
+    font-size: 21px;
+  }
+  .title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+  }
+  .sub_title{
+    font-size: 23px;
+    margin-bottom: 28px;
+  }
+  .ranking{
+    color:#f56400;
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+  .movie_link{
+    display:inline-block;
+    margin-top:10px;
+    border-radius: 18px;
+    background-color: blue;
+    padding:5px  10px;
+    color:white;
+    font-weight: 400;
+    font-size: 12px;
+  }
